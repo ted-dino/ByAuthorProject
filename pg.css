@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  background: #111;
+  min-height: 100vh;
+  padding: rem;
+  place-items:center;
+}
+
+.signup-form-container{
+  display: flex;
+  background-color: white;
+  padding: 4rem 2rem;
+  flex-direction: column;
+  width: min(90%, 500px);
+  gap: 1rem;
+  position: relative;
+}
+
+.signup-stage {
+  position: absolute;
+  color: #4B4B4B;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.signup-form-header{
+  display:flex;
+  max-width: 360px;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.signup-title {
+  font-weight: 300;
+}
+
+.signup-subtitle{
+  color: #292929;
+}
+
+.signin-link {
+  font-weight: 600;
+  color: black;
+}
+
+.signup-form {
+  display:flex;
+  flex-direction:column;
+  gap: 1.5rem;
+}
+
+.button-container{
+   position: relative;
+  width: 100%;
+  border-radius: 100vmax;
+ 
+}
+
+.button-input{
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+}
+
+.arrow {
+  background: green;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem;
+  border-radius: 100vmax;
+}
+
+.signup-checkbox-container {
+  /* display: flex; */
+  gap: 0.5rem;
+  align-items:flex-start;
+}
+
+.signup-policy {
+  font-size: 14px;
+}
+
+.signup-next-btn {
+  border: none;
+  background-color: black;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 14px;
+  border-radius: 100vmax;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: min(90%, 300px);
+  font-weight: 600;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 40%;
+  transform: translate(0, .5rem)
+}
+
+.midcolumn {
+  width:6%;
+  padding: 0 2rem 0 1rem;;
+}
+
+.rightcolumn {   
+  float: left;
+  width: 40%;
+  transform: translate(0, .5rem)
+
+}
+
+.hr{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  margin-top:2rem;
+}
+
+.signIn, .passwordButton{
+ 
+  display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.signIn{
+  border: none;
+}
+
+.signInColL {
+  position: relative;
+  width: 100%;
+  font-size: 2.5rem;
+
+}
+
+.passwordButtonL{
+  position: relative;
+  width: 100%;
+
+}
+
+.inputBot{
+  border: none;
+  border-bottom:#111 2px solid;
+  padding: 4px;
+}
+
+.signInColR, .passwordButtonR{
+  position: relative;
+  width: 20%;
+  float: right;
+  margin-top:2rem;
+}
+
+.stepSpan{
+  position: relative;
+    padding: 10px;
+    cursor: pointer;
+    background: var(--primary);
+    border-radius: .3rem;
+    box-shadow: 0 0 5px var(--grad1);
+    border: 1px solid var(--grad2);
+    
+    transition: all 500ms ease-in-out;
+    float: right;
+    font-size:  1rem;
+    margin-top: 1rem;
+}
+.forgot{
+  width: 100%;
+}
+
+button{
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background: black;
+  color: white;
+  font-size: 1.5rem;
+  float: right;
+}
+
+.buttonG{
+  border: 1px solid #9C9C9C;
+  position: relative;
+  width: 100%;
+  border-radius: 100vmax;
+  padding: .2rem;
+  background: white;
+  justify-content: center;
+  color: black;
+  font-size: 1rem;
+}
+
+.button-input{
+  background: white;
+  border: 1px solid #9C9C9C;
+  color: #444;
+
+}
+
+.imgBtn{
+  /* margin-bottom: 1rem; */
+  width: 2rem;
+  color: #444;
+}
+
+.imgBtn{
+  /* margin-bottom: 1rem; */
+  width: 1.6rem;
+  color: #444;
+}
+
+.GoogleText{
+  font-size: 1.5rem;
+  margin:auto;
+  position: relative;
+  bottom: 6px;
+  
+}
+ 
+.buttonLabel{
+  margin-bottom: 1rem;
+}
+
+a{
+  text-decoration: underline;
+  color: #444;
+}
+
+.noAccountL{
+  color: #888;
+}
+
+.signUp{
+  color: black;
+  font-weight:800;
+}
+
+#rememberMe{
+  margin : .5rem 0 0 0 ;
+}
