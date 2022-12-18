@@ -11,58 +11,55 @@
 
 <body>
   <div class="signup-form-container">
-    <span class="signup-stage">
-      <img src="https://cdn-icons-png.flaticon.com/512/75/75519.png" width="15px" />
+    
+    <img class="closeX" src="./ByAuthorProject/ByAuthorProject-main/assets/X.png" width="21px" />
     </span>
     <form class="signup-form">
-      <div class="button-container">
-        <button class="button-input">
-          <img class="imgBtn"
-            src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Google-favicon-vector.png?20221007124453" />
-          <span class="GoogleText">Google Login</span>
+      <div class="googleBtn">
+        <button class="button-input button-input-G">
+          <div class="googleWrapper">
+            <img class="imgBtnG"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Google-favicon-vector.png?20221007124453" />
+            <span class="GoogleLogin">Google Login</span>
+          </div>
         </button>
       </div>
-      <div class="button-container">
-        <button class="appleBtn">
-          <img class="imgBtnA" src="./ByAuthorProject/ByAuthorProject-main/assets/apple.svg" />
-          <span class="GoogleText">Apple Login</span>
+      <div class="appleBtn">
+        <button class="button-input button-input-A">
+          <div class="appleWrapper">
+            <img class="imgBtnA" src="./ByAuthorProject/ByAuthorProject-main/assets/apple.svg" />
+            <span class="AppleLogin">Apple Login</span>
+          </div>
         </button>
       </div>
-      <div class="hr">
-        <div class="leftcolumn">
-          <hr />
-        </div>
-        <div class="midcolumn">or</div>
-        <div class="rightcolumn">
-          <hr />
+      <div class="horizontalBreak">
+        <div class="hr">
+          <div class="lHr">
+          </div>
+          <div class="or">or</div>
+          <div class="rHr">
+          </div>
         </div>
       </div>
       <div class="signup-checkbox-container">
         <div class="signIn">
-          <div class="signInColL">
-            Sign In
-            <span class="stepSpan">2/2 step</span>
-          </div>
+          Sign In
         </div>
-        <div class="noAccount">
-          <div class="noAccountL">
-            Don't have an account? <span class="signUp">Sign Up</span>
-          </div>
+        <span class="step">2/2 step</span>
+        <div class="signUp">
+          Don't have an account? <span class="signUp2">Sign Up</span>
         </div>
-        <div class="passwordButton">
-          <div class="passwordButtonL">
-            <input type="text" placeholder="Password" id="fname" name="fname" classname="inputBot" style="
+        
+          <input class="inputClass" type="text" placeholder="Password" id="fname" name="fname" classname="inputBot" style="
           border: none;
-          border-bottom: 2px black solid;
-          width: 80%;
+          border-bottom: 1px black solid;
           padding: 8px;
-          /* color: purple; */
       ">
-          </div>
-          <div class="passwordButtonR">
-            <button> Enter</button>
-          </div>
+       
+        <div class="next">
+          <button class="nextBtn"> Enter</button>
         </div>
+
         <div class="forgotPassword">
           <div class="forgotPasswordL">
             <a href="#">Forgot Password?</a>
