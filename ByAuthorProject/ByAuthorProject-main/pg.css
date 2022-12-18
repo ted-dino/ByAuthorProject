@@ -153,34 +153,25 @@ body
 
 .signIn
 {
-  /* Sign In */
-
-
   position: absolute;
   width: 130px;
   height: 23px;
   left: 38px;
   top: 337px;
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 23px;
-  /* identical to box height, or 68% */
-
   letter-spacing: 0.09em;
   text-transform: capitalize;
-
   color: #070707;
-
 }
 
 .signInColL
 {
   width: 100%;
   font-size: 2.5rem;
-
 }
 
 .signInColR
@@ -194,7 +185,6 @@ body
 {
   position: absoluteppas;
   font-size: 1rem;
-
 }
 
 .forgot
@@ -251,11 +241,6 @@ button
 
 .appleBtn
 {
-
-
-  /* appleBtn */
-
-
   position: absolute;
   width: 480px;
   height: 65px;
@@ -263,40 +248,17 @@ button
   top: 165px;
 }
 
-/* button-input */
-
-.button-input-A
-{
-
+.button-input-A{
   box-sizing: border-box;
   background: #fff;
-
   position: absolute;
   width: 452px;
   height: 55px;
   left: 14px;
   top: 5px;
-
   border: 0.5px solid #151515;
   border-radius: 57px;
 }
-
-/* appleWrapper */
-/* 
-.appleWrapper
-{
-  position: absolute;
-  width: 115px;
-  height: 23px;
-  left: 106px;
-  top: 12px;
-}
-
-.imgBtnA
-{
-  /* imgBtnA */
-
-/* imgBtnA */
 
 .imgBtnA
 {
@@ -306,30 +268,19 @@ button
   top: 21px;
 }
 
-
-
-/* Apple Login */
-
-.AppleLogin
-{
-  /* position: absolute; */
+.AppleLogin{
   width: 123px;
   height: 23px;
   left: 30px;
   top: 0px;
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 275;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height, or 115% */
-
   letter-spacing: 0.04em;
   text-transform: capitalize;
-
   color: #151515;
-  ;
 }
 
 .GoogleLogin{
@@ -338,39 +289,26 @@ button
   height: 23px;
   left: 27px;
   top: 0px;
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 275;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height, or 115% */
-
   letter-spacing: 0.04em;
   text-transform: capitalize;
-
   color: #151515;
-
 }
 
 .imgBtnG
 {
-  /* imgBtnG */
-
-
   position: absolute;
   width: 21px;
   height: 21px;
   left: 0px;
   top: 0px;
-  /* background: url(image.png); */
 }
 
-/* googleWrapper */
-
-
-.googleWrapper
-{
+.googleWrapper{
   position: absolute;
   width: 152px;
   height: 23px;
@@ -378,27 +316,21 @@ button
   top: 21px;
 }
 
-/* button-input-G */
 .button-input-G
 {
   box-sizing: border-box;
   background: #fff;
-
   position: absolute;
   width: 452px;
   height: 56px;
   left: 14px;
   top: 5px;
-
   border: 0.5px solid #151515;
   border-radius: 57px;
 }
 
 .googleBtn
 {
-  /* googleBtn */
-
-
   position: absolute;
   width: 480px;
   height: 65px;
@@ -408,22 +340,15 @@ button
 
 .signup-form-container
 {
-  /* Frame 11 */
-
-
   position: absolute;
   width: 531px;
   height: 609px;
   left: 682px;
   top: 185px;
-
 }
 
 .closeX
 {
-  /* image 4 */
-
-
   position: absolute;
   width: 21px;
   height: 21px;
@@ -485,7 +410,7 @@ button
   height: 0px;
   left: 38px;
   bottom: 130px;
-  
+
 }
 
 .or
@@ -551,7 +476,7 @@ button
   top: 431px;
 
   background: #070707;
-  color:#fff;
+  color: #fff;
   border-radius: 40px;
 }
 
@@ -605,11 +530,16 @@ button
 
 }
 
-a{
-  text-decoration:none; color: #474747;
+a
+{
+  text-decoration: none;
+  color: #474747;
 }
 
-input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button {
+input:is([type="button"], [type="submit"], [type="reset"]),
+input[type="file"]::file-selector-button,
+button
+{
   align-items: flex-start;
   text-align: center;
   cursor: default;
@@ -626,7 +556,7 @@ input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::
   border-right-style: none;
   border-bottom-style: none;
   border-left-style: none;
-  border-top-color:#070707;
+  border-top-color: #070707;
   border-right-color: buttonface;
   border-bottom-color: buttonface;
   border-left-color: buttonface;
