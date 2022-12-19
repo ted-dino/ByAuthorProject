@@ -390,7 +390,7 @@ button
   height: 23px;
   left: 53px;
   bottom: 143px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -421,7 +421,7 @@ button
   left: 260px;
   top: 272px;
 
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 275;
   font-size: 18px;
@@ -568,3 +568,30 @@ button
   background-color: buttonface;
   box-sizing: border-box;
 }
+
+.back{position:absolute;
+  width: 21px;
+height: 21px;
+right: 23px;
+top: 21px;
+
+}
+
+.signUp{
+    position: absolute;
+    width: 243px;
+    height: 23px;
+    left: 38px;
+    top: 378px;
+    
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height, or 164% */
+    
+    letter-spacing: 0.04em;
+    
+    color: #6D6D6D;
+  }
