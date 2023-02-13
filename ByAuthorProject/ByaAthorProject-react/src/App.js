@@ -5,7 +5,7 @@ import brand from "./assets/logo.svg";
 
 function App() {
   let images = [
-    "https://images.unsplash.com/photo-1614107069882-797f3213125b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "https://ic.wampi.ru/2023/02/13/Main-image-FinalVersion.jpg",
     "https://images.unsplash.com/photo-1640474252967-0615aef6d74c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "https://images.unsplash.com/photo-1530368733572-4a21beaa8c9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   ];
@@ -66,7 +66,7 @@ function App() {
           <h1>ByAuthor</h1>
         </div>
         <div className="card-header">
-          <img src="./assets/logo-mobile.svg" alt="" />
+          <img src="./assets/Logo-MainVrsion.svg" alt="" />
           <span>create</span>
           <span>communicate</span>
           <span>decide</span>
