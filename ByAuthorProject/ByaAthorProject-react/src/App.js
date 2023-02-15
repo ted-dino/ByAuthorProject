@@ -1,6 +1,7 @@
 import "./App.css";
 import appleIcon from "./assets/apple.svg";
 import googleIcon from "./assets/google.svg";
+import mobileLogo from "./assets/logo-mobile.svg";
 import brand from "./assets/logo.svg";
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       style={{
         backgroundImage: `url(${randomBGImage(images)})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
+        backgroundSize: "contain",
       }}
     >
       <div className="left">
@@ -66,7 +67,7 @@ function App() {
           <h1>ByAuthor</h1>
         </div>
         <div className="card-header">
-          <img src="./assets/Logo-MainVrsion.svg" alt="" />
+          <img src={mobileLogo} alt="" />
           <span>create</span>
           <span>communicate</span>
           <span>decide</span>
