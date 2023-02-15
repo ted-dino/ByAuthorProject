@@ -20,8 +20,6 @@ function App() {
       id="switch-image"
       style={{
         backgroundImage: `url(${randomBGImage(images)})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
       }}
     >
       <div className="left">

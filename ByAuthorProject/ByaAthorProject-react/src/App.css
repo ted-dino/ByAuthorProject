@@ -28,11 +28,10 @@ button {
   font-size: 15px;
   font-weight: 300;
 }
-button span{
+button span {
   font-size: 15px;
   font-weight: 300;
 }
-
 
 main {
   display: flex;
@@ -40,6 +39,7 @@ main {
   min-height: 100vh;
   color: var(--clr-light);
   background-image: none;
+  background-repeat: no-repeat;
 }
 .card-layout {
   width: 100%;
@@ -179,6 +179,9 @@ main {
   main {
     align-items: center;
     justify-content: center;
+
+    background-size: cover;
+    background-repeat: center;
   }
 
   .card-layout {
@@ -221,6 +224,8 @@ main {
 @media (width >= 1201px) {
   main {
     flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   main .left {
     flex: 1;
